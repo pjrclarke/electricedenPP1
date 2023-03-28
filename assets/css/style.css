@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+/* Header */
+
+header {
+    background-color: rgb(255, 241, 221);
+    width:100%;
+    box-shadow: 10px 10px 3 #fff;
+    padding: 0 0 0 0;
+}
+#logo {
+    font-family: cinzel, sans-serif;
+    letter-spacing: 6px;
+    font-size:300%;
+    margin: 0 0 0 30px;
+    color:#3a3a3b;
+    font-weight: 1200px;
+    border-radius: 30px;
+}
+h1 {
+    text-decoration: none!important;
+}
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    }
+    
+    #menu, #logo {
+        text-align: center;
+        line-height: 75px;
+    }
+    
+    #menu li {
+        font-family: cinzel, sans-serif;
+        font-weight: 300;
+        display:inline;
+        list-style-type: none;
+        margin-right: 30px ;
+        word-spacing: 200px;
+        font-size: larger;
+    
+    }
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+        font-size: x-large;
+    }
+    hr {
+        position: relative;
+        border: none;
+        height: 3px;
+        background: #3a3a3b;
+        margin-bottom: 50px;
+    }
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
