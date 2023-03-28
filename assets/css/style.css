@@ -1,21 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
 
 /* Header */
+* {
+    margin:0;
+    padding:0;
+    border: none;
+}
 
 header {
-    background-color: rgb(255, 241, 221);
+    background-color: rgba(255, 241, 221, 0.7);
     width:100%;
     box-shadow: 10px 10px 3 #fff;
     padding: 0 0 0 0;
+    margin:0;
+}
+header a {
+    text-decoration: none;
 }
 #logo {
-    font-family: cinzel, sans-serif;
-    letter-spacing: 6px;
-    font-size:300%;
+    font-family: phudu, sans-serif;
+    letter-spacing: 8px;
+    font-size:400%;
     margin: 0 0 0 30px;
     color:#3a3a3b;
     font-weight: 1200px;
     border-radius: 30px;
+    border: none;
 }
 h1 {
     text-decoration: none!important;
@@ -31,13 +42,14 @@ h1 {
     }
     
     #menu li {
-        font-family: cinzel, sans-serif;
+        font-family: phudu, sans-serif;
         font-weight: 300;
         display:inline;
         list-style-type: none;
         margin-right: 30px ;
         word-spacing: 200px;
         font-size: larger;
+        text-shadow: 0 0 2px #3a3a3a;
     
     }
     #menu a {
@@ -58,5 +70,6 @@ h1 {
     }
     .active {
         border-bottom: 1px solid #3a3a3a;
+        text-align: center;
     }
 
