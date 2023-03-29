@@ -5,36 +5,41 @@
     margin:0;
     padding:0;
     }
+    header {
+        background-color: rgb(255, 241, 221);
+    }
 header a {
     text-decoration: none;
 }
 #logo {
     font-family: rock salt, sans-serif;
     letter-spacing: 8px;
-    font-size:100%;
+    font-size:120%;
     margin: 20px 50px 0 100px;
     color:#3a3a3b;
     float: right;
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 4px;
     text-align: left;
     line-height: 75px;
     margin-left: 50px;
+   
     }
     
-    #menu li {
+#menu li {
         font-family: Nanum Pen Script, sans-serif;
         font-weight: 300;
         display:inline;
         list-style-type: none;
         word-spacing: 50px;
         font-size: 100%;
+        margin-top: 50%;
     
     }
-    #menu a {
+#menu a {
         text-decoration: none;
         color: inherit;
     }
@@ -57,9 +62,7 @@ header a {
         text-shadow: 0 0 2px #3a3a3a;
     }
 
-body {
-    font-family: Nanum Pen Script, sans-serif;
-}
+
 #background-outer {
     object-fit: fill;
     height: 900px;
@@ -77,33 +80,51 @@ body {
 }
 
 #album {
-    z-index: 2;
-    height: 200px;
-    width: 200px;
-    border: 10px solid #fff;
-   background: url(../images/electric_eden_ep.jpg) no-repeat center right;
+    z-index: 1000;
+    height: 400px;
+    width: 400px;
+    border: 20px solid #fff;
+    border-left: 500px solid #fff;
+    position: absolute;
+    bottom:50%;
+       
+        top:300px;
+        right: 300px;
+   background-image: url(../images/electric_eden_ep.jpg);
+   background-size: 100%;
 }
 
 #about-section {
-        z-index: 1000;
+    font-family: Nanum Pen Script, sans-serif;
+    text-align: center;
+        z-index: 2000;
         font-size: 130%;
         text-transform: uppercase;
         letter-spacing: 4px;
         color: #3a3a3a;
     
-        width: 200px;
-        height: 200px;
-    
-        padding-top: 40px;
-        padding-left: 10px;
-    
-        background-color: #fff;
-    
-        bottom:30px;
-        
+        width: 400px;
+        height: 400px;
+
+        left: 20%;
+        top: 300px;
+        right: 50%;
+
+        padding-top: 75px;
+        padding-left: 25px;
         position: absolute;
     
     
+}
+.button{
+    font-family: Nanum Pen Script, sans-serif;
+    background-color: rgb(255, 241, 221);
+    border:2px solid #3a3a3a;
+    color: #3a3a3a;
+}
+div a {
+    text-decoration: none;
+    margin-top: 100%;
 }
 footer {
     background-color:rgba(255, 241, 221, 0.7);
@@ -129,4 +150,8 @@ footer hr {
     margin:0;
     padding: 5%;
     color: #3a3a3a;
+}
+
+.music {
+    
 }
