@@ -5,7 +5,10 @@
     padding:0;
     }
 header {
-        background-color: rgb(255, 241, 221);
+    z-index: 9000;
+    background-color: rgb(255, 241, 221);
+    position:fixed;
+    max-width: 100%;
     }
 header a {
     text-decoration: none;
@@ -17,6 +20,7 @@ header a {
     margin: 20px 50px 0 100px;
     color:#3a3a3b;
     float: right;
+    position:fixed;
 }
 
 #menu {
@@ -50,7 +54,7 @@ header a {
     header hr {
         position: relative;
         border: none;
-        height: 3px;
+        height: 2px;
         background: #3a3a3b;
 
     }
@@ -60,7 +64,6 @@ header a {
         text-shadow: 0 0 2px #3a3a3a;
     }
 
-
 #background-outer {
     object-fit: fill;
     height: 900px;
@@ -68,6 +71,7 @@ header a {
     overflow: hidden;
     position: relative;
  }
+
 #background-image {
     z-index: 1;
     background: url(../images/electric_eden_ep.jpg) no-repeat center center;
@@ -85,20 +89,19 @@ header a {
     border-left: 500px solid #fff;
     position: absolute;
     bottom:50%;
-       
-        top:300px;
-        right: 300px;
-   background-image: url(../images/electric_eden_ep.jpg);
-   background-size: 100%;
+    top:300px;
+    right: 300px;
+    background-image: url(../images/electric_eden_ep.jpg);
+    background-size: 100%;
 }
 
 #about-section {
-    font-family: Nanum Pen Script, sans-serif;
+    font-family: rock salt, sans-serif;
     text-align: center;
         z-index: 2000;
-        font-size: 130%;
+        font-size: 90%;
         text-transform: uppercase;
-        letter-spacing: 4px;
+        letter-spacing: 8px;
         color: #3a3a3a;
     
         width: 400px;
@@ -116,6 +119,7 @@ header a {
 }
 #about-section h1 {
     padding-top: 50px;
+    padding-bottom:20px;
 }
 #about-section h3 {
     padding-bottom: 50px;
@@ -126,11 +130,11 @@ header a {
 
 .music i {
     color:#3a3a3a;
-    font-size: 200%;
+    font-size: 300%;
 }
 .music > li {
     display:inline;
-    word-spacing: 20px;
+    word-spacing: 40px;
 }
 .music i:hover{
     font-size: x-large;
@@ -145,28 +149,37 @@ div a {
     text-decoration: none;
     margin-top: 100%;
 }
-.footer {
-    background-color:rgba(255, 241, 221, 0.7);
-    position:relative;
-    height:20px;
-}
+
 footer hr {
     border: none;
-    height: 3px;
+    height: 2px;
     background: #3a3a3b;
 }
+.footer {
+    background-color:rgba(255, 241, 221, 0.7);
+    height:20px;
+    bottom: 0;
+    padding: 20px;
+}
+
 .social-networks {
     background-color: rgb(255, 241, 221);
     text-align: center;
 }
 .social-networks > li {
     display: inline;
-    text-align: center;
+    word-spacing: 100px;
 }
 
 .social-networks i {
     text-shadow: 0 0 2px #3a3a3a;
     font-size: 175%;
-    padding: 5%;
+    padding:2.5%;
     color: #3a3a3a;
+    height: 20px;
+    word-spacing: 100px;
+    margin: 0;
+}
+.social-networks i:hover{
+    text-shadow: 0 0 15px #ff6f00;    
 }
