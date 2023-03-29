@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Rock+Salt&display=swap');
 
-/* Header */
 * {
     margin:0;
     padding:0;
     }
-    header {
+header {
         background-color: rgb(255, 241, 221);
     }
 header a {
@@ -26,7 +25,6 @@ header a {
     text-align: left;
     line-height: 75px;
     margin-left: 50px;
-   
     }
     
 #menu li {
@@ -114,7 +112,28 @@ header a {
         padding-left: 25px;
         position: absolute;
     
-    
+ 
+}
+#about-section h1 {
+    padding-top: 50px;
+}
+#about-section h3 {
+    padding-bottom: 50px;
+}
+.music {
+    list-style-type: none;
+}
+
+.music i {
+    color:#3a3a3a;
+    font-size: 200%;
+}
+.music > li {
+    display:inline;
+    word-spacing: 20px;
+}
+.music i:hover{
+    font-size: x-large;
 }
 .button{
     font-family: Nanum Pen Script, sans-serif;
@@ -126,17 +145,18 @@ div a {
     text-decoration: none;
     margin-top: 100%;
 }
-footer {
+.footer {
     background-color:rgba(255, 241, 221, 0.7);
-    height: 50px;
+    position:relative;
+    height:20px;
 }
 footer hr {
     border: none;
     height: 3px;
     background: #3a3a3b;
-    margin-top: 100%;
 }
 .social-networks {
+    background-color: rgb(255, 241, 221);
     text-align: center;
 }
 .social-networks > li {
@@ -146,12 +166,7 @@ footer hr {
 
 .social-networks i {
     text-shadow: 0 0 2px #3a3a3a;
-    font-size: 300%;
-    margin:0;
+    font-size: 175%;
     padding: 5%;
     color: #3a3a3a;
-}
-
-.music {
-    
 }
