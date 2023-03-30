@@ -1,57 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
 
-* {
+*{
     margin:0;
     padding:0;
     }
+
+    header hr {
+        border: 1px solid #3a3a3a;
+    }
+
 body {
     background-color: rgb(255, 241, 221);
 }
+
 header a {
+    z-index: 9999;
     text-decoration: none;
 }
-#logo {
+header h1{
     font-family: rock salt, sans-serif;
     letter-spacing: 8px;
-    font-size:120%;
+    color: #3a3a3a;
+}
+
+#about-section h1 {
+    font-family: kulim park, sans-serif;
+    letter-spacing: 8px;
     color:#3a3a3b;
 }
+#logo {
+    float: right;
+    font-size:120%;
+    margin-right: 30px;
+    line-height: 75px;
+    ;
+}
 #menu {
-    font-size: 120%;
+    font-size: 90%;
     letter-spacing: 4px;
-    text-align: left;
     line-height: 75px;
     margin-left: 50px;
     max-width: 100%;
     }
 #menu li {
-    font-family: Nanum Pen Script, sans-serif;
+    font-family: kulim park, sans-serif;
     font-weight: 300;
-    display:inline;
     list-style-type: none;
+    display: inline;
     word-spacing: 50px;
-    font-size: 100%;
-    margin-top: 50%;
     }
 
 #menu a {
         text-decoration: none;
         color:#3a3a3b;
     }
-    #menu a:hover {
-        font-size: 150%;
+#menu a:hover {
+        font-size: 110%;
         text-shadow: 0 0 2px #3a3a3a;
     }
-header div {
-    z-index: 9999;
-    background-color:rgb(255, 241, 221);
-
-}
-    .active {
+.active {
         text-align: center;
-        font-size: 150%;
+        font-size: 100%;
         text-shadow: 0 0 2px #3a3a3a;
     }
+    
+header div {
+    z-index: 3;
+    background-color:rgb(255, 241, 221);
+    position: fixed;
+    top:0;
+    min-width: 100%;
+        }
+
 #background-outer {
     object-fit: fill;
     height: 900px;
@@ -67,8 +88,9 @@ header div {
     width:100%;
     background-size: 100% 100%;
 }
+
 #album {
-    z-index: 1000;
+    z-index: 2;
     height: 400px;
     width: 400px;
     border: 20px solid #fff;
@@ -80,8 +102,9 @@ header div {
     background-image: url(../images/electric_eden_ep.jpg);
     background-size: 100%;
 }
+
 #about-section {
-    font-family: rock salt, sans-serif;
+    font-family: kulim park, sans-serif;
     text-align: center;
         z-index: 2000;
         font-size: 90%;
@@ -122,7 +145,8 @@ header div {
     word-spacing: 40px;
 }
 .music i:hover{
-    font-size: x-large;
+    text-shadow: 0 0 5px #3a3a3a;
+    font-size: 290%;
 }
 .button{
     font-family: Nanum Pen Script, sans-serif;
@@ -134,17 +158,17 @@ div a {
     text-decoration: none;
     margin-top: 100%;
 }
-
 footer hr {
-    border: none;
-    height: 2px;
-    background: #3a3a3b;
+    border: 1px solid #3a3a3a;
+    max-width: 100%;
 }
 .footer {
     background-color:rgba(255, 241, 221, 0.7);
     height:20px;
     bottom: 0;
     padding: 20px;
+    position: absolute;
+    min-width: 100%;
 }
 
 .social-networks {
@@ -157,7 +181,6 @@ footer hr {
 }
 
 .social-networks i {
-    text-shadow: 0 0 2px #3a3a3a;
     font-size: 175%;
     padding:2.5%;
     color: #3a3a3a;
@@ -166,5 +189,79 @@ footer hr {
     margin: 0;
 }
 .social-networks i:hover{
-    text-shadow: 0 0 15px #ff6f00;    
+    text-shadow: 0 0 15px #3a3a3a;    
+}
+#video-wrapper h2 {
+    font-family:kulim park, sans-serif;
+    text-align: center;
+    margin-top: 99px
+}
+
+#video-column-1 {
+margin-top: 10px;
+margin-bottom: 20px;
+max-width: 100%;
+text-align: center;
+}
+#video-column-1 iframe {
+    border: 15px solid #fff;
+}
+#contacth2 {
+    margin-top: 100px;
+    text-align: center;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    
+  }
+  input[type=submit] {
+    width: 50%;
+    background-color: #fff;
+    color:#3a3a3a;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+  }
+  input[type=submit]:hover {
+    background-color: #3a3a3a;
+    color: #fff;
+  }
+  #contactdiv {
+    text-align: center;
+  }
+
+#contact{
+    margin-top:30px;
+    display: inline-block;
+}
+.message {
+    padding: 50px;
+}
+#success {
+    margin: 200px 0 200px 0;
+    text-align: center;
+    font-family: kulim park, sans-serif;
+}
+
+.successbutton {
+    background-color: white;
+    border: 2px solid #3a3a3a;
+    color: #3a3a3a;
+    padding: 5px 20px 5px 20px;
+    top:30px;
+}
+#success a {
+    text-decoration: none;
+    margin-top: 50px;
+    color: #3a3a3a;
+    top:30px;
+    position: relative;
+}
+
+#message {
+
 }
