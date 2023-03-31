@@ -201,11 +201,7 @@ div a {
 
 /*media.html*/ 
 
-#video-wrapper h3 {
-    font-family:kulim park, sans-serif;
-    text-align: center;
-    margin-top: 99px
-}
+
 #images1 { 
     text-align: center;
     margin-bottom: 10px;
@@ -216,15 +212,27 @@ div a {
 #images1 img { 
     border: 5px solid #fff;
 }
-
-#video-column-1 {
-margin-top: 10px;
-margin-bottom: 20px;
-max-width: 100%;
-text-align: center;
+.video {
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #fff;
+    position: relative;
+    margin-bottom: 20px;
 }
-#video-column-1 iframe {
-    border: 15px solid #fff;
+.img1 {
+    height:300px;
+    Width:300px;
+    margin-right: 20px;
+}
+.img2 {
+    height:300px;
+    Width:650px;
+}
+.img3 {
+    height:300px;
+    Width:300px;
+    margin-left: 20px;
 }
 
 #imagetitle {
@@ -237,16 +245,6 @@ margin-bottom: 10px;
 
 /* contact.html */
 
-#contacth3 {
-    margin-top: 100px;
-    text-align: left;
-    font-family: kulim park, sans-serif;
-    font-size: 80%;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin-left:6%;
-}
-
 input[type=text], select {
     font-family: kulim park, sans-serif;
     text-transform: uppercase;
@@ -256,6 +254,7 @@ input[type=text], select {
     overflow-wrap: break-word;
     display: block;
   }
+  
   input[type=tel], select {
     font-family: kulim park, sans-serif;
     text-transform: uppercase;
@@ -287,8 +286,8 @@ input[type=text], select {
   }
 
   #contacth3 {
-    margin-top: 100px;
-    text-align: left;
+    margin-top: 150px;
+    text-align: center;
     font-family: kulim park, sans-serif;
     font-size: 80%;
     text-transform: uppercase;
@@ -297,15 +296,14 @@ input[type=text], select {
 }
 
   #contactdiv {
-    text-align: left;
+    text-align: center;
     margin-left: 5%;
-    display:inline block;
   }
 
 #contact{
     margin-top:30px;
     display: inline-block;
-    text-align: left;
+    text-align: center;
 }
 
 /*emailsuccess.html - hidden page */
@@ -346,15 +344,15 @@ input[type=text], select {
         width: 300px;
         height: 300px;
         top:450px;
-        left:15%;
         position: absolute;
+        left:10%;
 }
 #album {
     position: absolute;
     top:150px;
-    left:15%;
     width: 300px;
     height: 300px;
+    left: 10%;
 }
 #fullalbum {
     display: inline-block;
@@ -380,4 +378,33 @@ input[type=text], select {
     }
     #background-image {
         background-size:cover;
+}
+.images1 {
+    display: block;
+}
+.img1 {
+    height: 150px;
+    Width:150px;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+.img2 {
+    height:150px;
+    Width:325px;
+    margin-bottom: 20px;
+}
+.img3 {
+    height:150px;
+    Width:150px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.video {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.copyright {
+    margin-top:10px;
 }
