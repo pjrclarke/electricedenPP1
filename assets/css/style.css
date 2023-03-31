@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
 
+/*General - Each Page*/
 *{
     margin:0;
     padding:0;
@@ -42,6 +43,7 @@ header h1{
     line-height: 75px;
     margin-left: 50px;
     max-width: 100%;
+    text-transform: uppercase;
     }
 #menu li {
     font-family: kulim park, sans-serif;
@@ -73,6 +75,49 @@ header div {
     min-width: 100%;
         }
 
+footer hr {
+            border: 1px solid #3a3a3a;
+            max-width: 100%;
+        }
+.footer {
+            background-color:rgba(255, 241, 221, 0.7);
+            height:20px;
+            bottom: 0;
+            left:0;
+            padding: 20px;
+            position: fixed;
+            min-width: 100%;
+        }
+        
+.social-networks {
+            background-color: rgb(255, 241, 221);
+            text-align: center;
+        }
+.social-networks > li {
+            display: inline;
+            word-spacing: 100px;
+        }
+        
+.social-networks i {
+            font-size: 175%;
+            padding:2.5%;
+            color: #3a3a3a;
+            height: 20px;
+            word-spacing: 100px;
+            margin: 0;
+        }
+.social-networks i:hover{
+            text-shadow: 0 0 15px #3a3a3a;    
+        }
+.copyright {
+            font-size: 80%;
+            text-align: center;
+            font-family: kulim park, sans-serif;
+            margin-bottom:10px;
+        }
+
+/*index.html*/
+
 #background-outer {
     object-fit: fill;
     height: 900px;
@@ -88,19 +133,21 @@ header div {
     width:100%;
     background-size: 100% 100%;
 }
-
+#fullalbum {
+    display: inline;
+}
 #album {
     z-index: 2;
     height: 400px;
     width: 400px;
     border: 20px solid #fff;
-    border-left: 500px solid #fff;
     position: absolute;
     bottom:50%;
     top:300px;
-    right: 300px;
+    right: 325px;
     background-image: url(../images/electric_eden_ep.jpg);
     background-size: 100%;
+    max-width: 100%;
 }
 
 #about-section {
@@ -111,19 +158,14 @@ header div {
         text-transform: uppercase;
         letter-spacing: 8px;
         color: #3a3a3a;
-    
+        background-color: #fff;
+        border: 20px solid #fff;
         width: 400px;
         height: 400px;
-
-        left: 20%;
+        left:300px;
         top: 300px;
-        right: 50%;
-
-        padding-top: 75px;
-        padding-left: 25px;
+        right: 40%;
         position: absolute;
-    
- 
 }
 #about-section h1 {
     padding-top: 50px;
@@ -158,43 +200,23 @@ div a {
     text-decoration: none;
     margin-top: 100%;
 }
-footer hr {
-    border: 1px solid #3a3a3a;
-    max-width: 100%;
-}
-.footer {
-    background-color:rgba(255, 241, 221, 0.7);
-    height:20px;
-    bottom: 0;
-    padding: 20px;
-    position: absolute;
-    min-width: 100%;
-}
 
-.social-networks {
-    background-color: rgb(255, 241, 221);
-    text-align: center;
-}
-.social-networks > li {
-    display: inline;
-    word-spacing: 100px;
-}
 
-.social-networks i {
-    font-size: 175%;
-    padding:2.5%;
-    color: #3a3a3a;
-    height: 20px;
-    word-spacing: 100px;
-    margin: 0;
-}
-.social-networks i:hover{
-    text-shadow: 0 0 15px #3a3a3a;    
-}
-#video-wrapper h2 {
+/*media.html*/ 
+
+#video-wrapper h3 {
     font-family:kulim park, sans-serif;
     text-align: center;
     margin-top: 99px
+}
+#images1 { 
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0;
+    bottom: 10px;
+}
+#images1 img { 
+    border: 5px solid #fff;
 }
 
 #video-column-1 {
@@ -206,53 +228,94 @@ text-align: center;
 #video-column-1 iframe {
     border: 15px solid #fff;
 }
-#contacth2 {
-    margin-top: 100px;
+
+#imagetitle {
+font-family:kulim park, sans-serif;
+margin-bottom: 10px;
+}
+#imagetitle h3{
     text-align: center;
 }
+
+/* contact.html */
+
+#contacth3 {
+    margin-top: 100px;
+    text-align: left;
+    font-family: kulim park, sans-serif;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left:6%;
+}
+
 input[type=text], select {
-    width: 50%;
+    font-family: kulim park, sans-serif;
+    text-transform: uppercase;
+    width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
+    overflow-wrap: break-word;
+    display: block;
+  }
+  input[type=tel], select {
+    font-family: kulim park, sans-serif;
+    text-transform: uppercase;
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
     
   }
+  input[type=email], select {
+    font-family: kulim park, sans-serif;
+    text-transform: uppercase;
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+  }
   input[type=submit] {
-    width: 50%;
+    width: 30%;
     background-color: #fff;
     color:#3a3a3a;
-    padding: 14px 20px;
+    padding: 10px 15px;
     margin: 8px 0;
-    border: none;
-    border-radius: 4px;
   }
+
   input[type=submit]:hover {
     background-color: #3a3a3a;
     color: #fff;
   }
+
+  #contacth3 {
+    margin-top: 100px;
+    text-align: left;
+    font-family: kulim park, sans-serif;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left:6%;
+}
+
   #contactdiv {
-    text-align: center;
+    text-align: left;
+    margin-left: 5%;
+    display:inline block;
   }
 
 #contact{
     margin-top:30px;
     display: inline-block;
+    text-align: left;
 }
-.message {
-    padding: 50px;
-}
+
+/*emailsuccess.html - hidden page */
+
 #success {
     margin: 200px 0 200px 0;
     text-align: center;
     font-family: kulim park, sans-serif;
-}
-
-.successbutton {
-    background-color: white;
-    border: 2px solid #3a3a3a;
-    color: #3a3a3a;
-    padding: 5px 20px 5px 20px;
-    top:30px;
 }
 #success a {
     text-decoration: none;
@@ -262,6 +325,9 @@ input[type=text], select {
     position: relative;
 }
 
-#message {
+/*media queries */
 
+@media screen and (max-width: 1200px) {
+
+    
 }
