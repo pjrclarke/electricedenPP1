@@ -129,7 +129,7 @@ footer hr {
     background-size:cover;
 }
 #fullalbum {
-    display: inline;
+    display: flex;
 }
 #album {
     z-index: 2;
@@ -327,7 +327,7 @@ input[type=text], select {
    div img {
     column-count: 1;
    }
-
+}
 @media screen and (max-width: 950px) {
     header div {
         z-index: 3;
@@ -363,7 +363,8 @@ input[type=text], select {
     left: 10%;
 }
 #fullalbum {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 #menu {
