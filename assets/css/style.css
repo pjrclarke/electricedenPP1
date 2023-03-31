@@ -13,6 +13,7 @@
 
 body {
     background-color: rgb(255, 241, 221);
+    max-width: 100%;
 }
 
 header a {
@@ -23,12 +24,6 @@ header h1{
     font-family: rock salt, sans-serif;
     letter-spacing: 8px;
     color: #3a3a3a;
-}
-
-#about-section h1 {
-    font-family: kulim park, sans-serif;
-    letter-spacing: 8px;
-    color:#3a3a3b;
 }
 #logo {
     float: right;
@@ -41,7 +36,7 @@ header h1{
     font-size: 90%;
     letter-spacing: 4px;
     line-height: 75px;
-    margin-left: 50px;
+    margin-left: 10px;
     max-width: 100%;
     text-transform: uppercase;
     }
@@ -86,7 +81,7 @@ footer hr {
             left:0;
             padding: 20px;
             position: fixed;
-            min-width: 100%;
+            max-width: 100%;
         }
         
 .social-networks {
@@ -131,7 +126,7 @@ footer hr {
     max-width: 100%;
     height: 1500px;
     width:100%;
-    background-size: 100% 100%;
+    background-size:cover;
 }
 #fullalbum {
     display: inline;
@@ -144,7 +139,7 @@ footer hr {
     position: absolute;
     bottom:50%;
     top:300px;
-    right: 325px;
+    left: 49% ;
     background-image: url(../images/electric_eden_ep.jpg);
     background-size: 100%;
     max-width: 100%;
@@ -153,7 +148,7 @@ footer hr {
 #about-section {
     font-family: kulim park, sans-serif;
     text-align: center;
-        z-index: 2000;
+        z-index: 2;
         font-size: 90%;
         text-transform: uppercase;
         letter-spacing: 8px;
@@ -162,14 +157,16 @@ footer hr {
         border: 20px solid #fff;
         width: 400px;
         height: 400px;
-        left:300px;
         top: 300px;
-        right: 40%;
+        right: 49%;
         position: absolute;
 }
 #about-section h1 {
     padding-top: 50px;
     padding-bottom:20px;
+    font-family: kulim park, sans-serif;
+    letter-spacing: 8px;
+    color:#3a3a3b;
 }
 #about-section h3 {
     padding-bottom: 50px;
@@ -214,6 +211,7 @@ div a {
     margin-bottom: 10px;
     padding: 0;
     bottom: 10px;
+    max-width: 100%;
 }
 #images1 img { 
     border: 5px solid #fff;
@@ -327,7 +325,59 @@ input[type=text], select {
 
 /*media queries */
 
-@media screen and (max-width: 1200px) {
-
+@media screen and (max-width: 950px) {
+    header div {
+        z-index: 3;
+        background-color:rgb(255, 241, 221);
+        position: fixed;
+        top:0;
+        min-width: 100%;
+        display: inline-block;
+    }
+    header h1{
+        letter-spacing: 10px;
+        margin: 2px 0 0 5px;
+    }
+    #images1 {
+        column-count: 1;
+    }
     
+#about-section {
+        width: 300px;
+        height: 300px;
+        top:450px;
+        left:15%;
+        position: absolute;
+}
+#album {
+    position: absolute;
+    top:150px;
+    left:15%;
+    width: 300px;
+    height: 300px;
+}
+#fullalbum {
+    display: inline-block;
+    text-align: center;
+}
+#menu {
+    float:none;
+    font-size: 80%;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 0px;
+    }
+#menu li {
+        text-align: center;
+    }
+#logo {
+    float:none;
+        font-size:120%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        ;
+    }
+    #background-image {
+        background-size:cover;
 }
