@@ -26,9 +26,15 @@ header h1{
     color: #3a3a3a;
 }
 #logo {
+    background-image: url(../images/electricedenlogo.PNG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 200px;
     float: right;
     font-size:120%;
     margin-right: 30px;
+    margin-top: 5px;
     line-height: 75px;
     ;
 }
@@ -36,7 +42,6 @@ header h1{
     font-size: 90%;
     letter-spacing: 4px;
     line-height: 75px;
-    margin-left: 10px;
     max-width: 100%;
     text-transform: uppercase;
     }
@@ -45,7 +50,7 @@ header h1{
     font-weight: 300;
     list-style-type: none;
     display: inline;
-    word-spacing: 50px;
+    margin-left: 50px;
     }
 
 #menu a {
@@ -60,6 +65,7 @@ header h1{
         text-align: center;
         font-size: 100%;
         text-shadow: 0 0 2px #3a3a3a;
+        font-weight: 200;
     }
     
 header div {
@@ -220,6 +226,7 @@ div a {
         z-index: 2;
         color: #3a3a3a;
         background-color: rgba(255,255,255,0.7);
+        border: 5px solid rgba(58,58,58,0.7);
         width: 250px;
         height: 250px;
         margin-top: 100px;
@@ -265,7 +272,29 @@ margin-bottom: 10px;
 #imagetitle h3{
     text-align: center;
 }
+/*Live Dates*/
 
+article {
+    font-family:kulim park, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.liveheading {
+    margin: 100px;
+    text-align: center;
+}
+
+.liveinfo {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.livedate {
+    border-bottom: 3px solid #3a3a3a;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 /* contact.html */
 
 input[type=text], select {
