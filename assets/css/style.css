@@ -287,13 +287,41 @@ article {
 .liveinfo {
     flex: 1;
     margin-left: 1rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    ;
+}
+.liveinfovenue {
+   text-align: left;
+}
+.livedate {
+    display: flex;
+    border-bottom: 3px solid #3a3a3a;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: left;
+    
 }
 
-.livedate {
-    border-bottom: 3px solid #3a3a3a;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+.moreinfo{
+    background-color: #fff;
+    border:2px solid #3a3a3a;
+    padding: 10px;
+    height:20px;
+    width: 30px;
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+.moreinfo:hover {
+    background-color: #3a3a3a;
+    border:2px solid #fff;
+    color: #fff;
+
 }
 /* contact.html */
 
