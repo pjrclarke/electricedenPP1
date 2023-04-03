@@ -83,11 +83,10 @@ footer hr {
 .footer {
             background-color:rgba(255, 241, 221, 0.7);
             height:20px;
-            bottom: 0;
-            left:0;
-            padding: 20px;
-            position: fixed;
-            max-width: 100%;
+            width: 100%;
+            bottom:0;
+            position: absolute;
+            min-width: 100%;
         }
         
 .social-networks {
@@ -272,6 +271,7 @@ margin-bottom: 10px;
 #imagetitle h3{
     text-align: center;
 }
+
 /*Live Dates*/
 
 article {
@@ -280,22 +280,11 @@ article {
     letter-spacing: 5px;
 }
 .liveheading {
-    margin: 100px;
+    margin-top: 150px;
+    margin-bottom: 75px;
     text-align: center;
 }
 
-.liveinfo {
-    flex: 1;
-    margin-left: 1rem;
-    margin-right: 2rem;
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-    ;
-}
-.liveinfovenue {
-   text-align: left;
-}
 .livedate {
     display: flex;
     border-bottom: 3px solid #3a3a3a;
@@ -303,9 +292,22 @@ article {
     margin-bottom: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    align-items: left;
-    
 }
+.liveinfo {
+    flex-grow: 1;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    display: flex;
+}
+.liveinfovenue {
+   min-width: 35%;
+}
+.liveinfodate {
+    min-width: 20%;
+ }
+ .liveinfolocation {
+    min-width: 20%;
+ }
 
 .moreinfo{
     background-color: #fff;
@@ -315,6 +317,25 @@ article {
     width: 30px;
     color: #3a3a3a;
     text-decoration: none;
+    margin-left:150px;
+}
+.moreinfo2 {
+    text-decoration: 4px line-through #3a3a3a;
+    background-color: #fff;
+    border:2px solid #3a3a3a;
+    padding: 10px;
+    height:20px;
+    width: 30px;
+    color: #3a3a3a;
+    margin-left: 150px;
+}
+.moredates {
+    text-align: center;
+    border-bottom: 2px solid #3a3a3a;
+    margin-bottom: 100px;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .moreinfo:hover {
