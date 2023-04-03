@@ -292,42 +292,49 @@ article {
     margin-bottom: 20px;
     margin-right: 50px;
     margin-left: 50px;
+    
 }
 .liveinfo {
     flex-grow: 1;
     margin-left: 1rem;
     margin-right: 2rem;
     display: flex;
+    justify-content: flex-start;
+    min-width: 100%;
+    flex-wrap: wrap;
 }
 .liveinfovenue {
    min-width: 35%;
+   margin-bottom: 5px;
+   word-wrap: normal;
+   
 }
 .liveinfodate {
     min-width: 20%;
+    margin-bottom: 5px;
  }
  .liveinfolocation {
-    min-width: 20%;
+    min-width: 25%;
+    margin-bottom: 5px;
+    word-wrap: normal;
  }
 
 .moreinfo{
+    text-align: center;
     background-color: #fff;
     border:2px solid #3a3a3a;
     padding: 10px;
-    height:20px;
-    width: 30px;
     color: #3a3a3a;
     text-decoration: none;
-    margin-left:150px;
+    word-wrap: normal;
+    
 }
 .moreinfo2 {
     text-decoration: 4px line-through #3a3a3a;
     background-color: #fff;
     border:2px solid #3a3a3a;
     padding: 10px;
-    height:20px;
-    width: 30px;
     color: #3a3a3a;
-    margin-left: 150px;
 }
 .moredates {
     text-align: center;
@@ -428,7 +435,7 @@ input[type=text], select {
    div img {
     column-count: 1;
    }
-#images1 {
+    #images1 {
     column-count: 1;
 }
 }
@@ -531,6 +538,42 @@ margin-top: 150px;
 }
 .copyright {
     margin-top:10px;
+}
+.liveinfo {
+    flex-grow: 1;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+align-items: center;
+flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+.liveinfovenue {
+   min-width: 35%;
+   margin-bottom: 20px;
+   
+}
+.liveinfodate {
+    min-width: 20%;
+    margin-bottom: 20px;
+ }
+ .liveinfolocation {
+    min-width: 25%;
+    margin-bottom: 30px;
+ }
+
+.moreinfo{
+    text-align: center;
+    background-color: #fff;
+    border:2px solid #3a3a3a;
+    padding: 10px;
+    color: #3a3a3a;
+    text-decoration: none;
+    
+    
 }
 }
 
