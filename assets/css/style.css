@@ -372,32 +372,24 @@ article {
 
 }
 
-/* contact.html */
-#contactbackground {
-    background-image: url();
-}
 #contactwrapper {
     background-color:rgba(255,255,255,0.7);
     height: auto;
-    width: 80%;
-    padding: 2px;
+    width: 40%;
+    padding: 50px;
     border:2px solid #3a3a3a;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top:200px;
+    text-transform: uppercase;
 }
 
-#contact div {
-    display: flex;
-}
 #contacth3 {
-    margin-top: 20px;
     margin-bottom: 30px;
     text-align: center;
     font-family: kulim park, sans-serif;
     font-size: 80%;
-    text-transform: uppercase;
     letter-spacing: 4px;
     margin-left:6%;
 }
@@ -406,50 +398,55 @@ article {
     text-align: center;
     vertical-align: middle;
 }
-.formdiv {
-    display: flex;
-    justify-content: space-between;
+    .formdiv {
+    display: grid;
 }
     .fname {
     font-family: kulim park, sans-serif;
-    height: 50px;
-    width:60%; 
-    margin-bottom: 20px;
-    margin-left: 10px;
+    margin-bottom: 5px;
   }
     .email {
     font-family: kulim park, sans-serif;
-    height: 50px;
-    width:60%;   
-    margin-bottom: 20px;
-    margin-left: 10px;
+    margin-bottom: 5px;
   }
     .number {
     font-family: kulim park, sans-serif;
-    height: 50px;
-    width:60%;   
-    margin-bottom: 20px;
-    margin-left: 10px;
+    margin-bottom: 5px;
   }
     .message {
     font-family: kulim park, sans-serif;
-    height: 100px;
-    width:60%;   
-    margin-bottom: 20px;
-    margin-left: 10px;
+    margin-bottom: 5px;
   }
-  .submit {
+    .fnames {
+    font-family: kulim park, sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+    .emails {
+    font-family: kulim park, sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+    .numbers {
+    font-family: kulim park, sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+    .messages {
+    font-family: kulim park, sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+    .submit {
     text-transform: uppercase;
     background-color: #fff;
     color:#3a3a3a;
     height: 50px;
     width:150px;   
-    margin-top: 20px;
-    margin-bottom: 20px;
     
   }
-
-  .submit:hover {
+    .submit:hover {
     background-color: #3a3a3a;
     color: #fff;
   }
@@ -699,4 +696,7 @@ margin-top: 200px;
     #contact {
         margin-top: 200px;
     }
+    #contactwrapper {
+margin-top: 350px;
+}
 }
