@@ -1,15 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Rock+Salt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
-
-/*General - Each Page*/
 *{
     margin:0;
     padding:0;
     }
 
-    header hr {
+header hr {
         border: 1px solid #3a3a3a;
-    }
+}
 
 body {
     background-color: rgb(255, 241, 221);
@@ -21,7 +17,7 @@ header a {
     text-decoration: none;
 }
 header h1{
-    font-family: rock salt, sans-serif;
+    font-family: "rock salt", sans-serif;
     letter-spacing: 8px;
     color: #3a3a3a;
 }
@@ -36,7 +32,7 @@ header h1{
     margin-right: 30px;
     margin-top: 5px;
     line-height: 75px;
-    ;
+    border: none;
 }
 #menu {
     font-size: 90%;
@@ -46,7 +42,7 @@ header h1{
     text-transform: uppercase;
     }
 #menu li {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     font-weight: 300;
     list-style-type: none;
     display: inline;
@@ -111,7 +107,7 @@ footer {
 .copyright {
             font-size: 80%;
             text-align: center;
-            font-family: kulim park, sans-serif;
+            font-family: "kulim park", sans-serif;
             margin-bottom:10px;
         }
 
@@ -150,7 +146,7 @@ footer {
 }
 
 #about-section {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     text-align: center;
         z-index: 2;
         font-size: 90%;
@@ -162,10 +158,10 @@ footer {
         width: 400px;
         height: 400px;
     }
-#about-section h1 {
+#about-section h2 {
     padding-top: 50px;
     padding-bottom:20px;
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     letter-spacing: 8px;
     color:#3a3a3b;
 }
@@ -189,7 +185,7 @@ footer {
     font-size: 290%;
 }
 .button{
-    font-family: Nanum Pen Script, sans-serif;
+    font-family: "Nanum Pen Script", sans-serif;
     background-color: rgb(255, 241, 221);
     border:2px solid #3a3a3a;
     color: #3a3a3a;
@@ -209,7 +205,7 @@ div a {
     margin-bottom: 20px;
 }
 #videooverlay {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
         z-index: 2;
         color: #3a3a3a;
         background-color: rgba(255,255,255,0.7);
@@ -284,7 +280,7 @@ div a {
     Width:300px;
 }
 #imagetitle {
-font-family:kulim park, sans-serif;
+font-family: "kulim park", sans-serif;
 margin-bottom: 10px;
 }
 #imagetitle h3{
@@ -294,7 +290,7 @@ margin-bottom: 10px;
 /*Live Dates*/
 
 article {
-    font-family:kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -388,7 +384,7 @@ article {
 #contacth3 {
     margin-bottom: 30px;
     text-align: center;
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     font-size: 80%;
     letter-spacing: 4px;
     margin-left:6%;
@@ -402,38 +398,38 @@ article {
     display: grid;
 }
     .fname {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     margin-bottom: 5px;
   }
     .email {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     margin-bottom: 5px;
   }
     .number {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     margin-bottom: 5px;
   }
     .message {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     margin-bottom: 5px;
   }
     .fnames {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     padding-bottom: 10px;
     text-align: center;
   }
     .emails {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     padding-bottom: 10px;
     text-align: center;
   }
     .numbers {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     padding-bottom: 10px;
     text-align: center;
   }
     .messages {
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     margin-bottom: 20px;
     padding-bottom: 100px;
     text-align: center;
@@ -459,7 +455,7 @@ article {
 #success {
     margin: 200px 0 200px 0;
     text-align: center;
-    font-family: kulim park, sans-serif;
+    font-family: "kulim park", sans-serif;
     
 }
 #success a {
