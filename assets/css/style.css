@@ -80,7 +80,7 @@ footer hr {
             border: 1px solid #3a3a3a;
             max-width: 100%;
         }
-.footer {
+footer {
             background-color:rgba(255, 241, 221, 0.7);
             height:20px;
             width: 100%;
@@ -361,6 +361,8 @@ article {
     border-bottom: 2px solid #3a3a3a;
     margin-bottom: 100px;
     padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .moreinfo:hover {
@@ -369,68 +371,91 @@ article {
     color: #fff;
 
 }
+
 /* contact.html */
+#contactbackground {
+    background-image: url();
+}
+#contactwrapper {
+    background-color:rgba(255,255,255,0.7);
+    height: auto;
+    width: 80%;
+    padding: 2px;
+    border:2px solid #3a3a3a;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:200px;
+}
 
-input[type=text], select {
-    font-family: kulim park, sans-serif;
-    text-transform: uppercase;
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    overflow-wrap: break-word;
-    display: block;
-  }
-  
-  input[type=tel], select {
-    font-family: kulim park, sans-serif;
-    text-transform: uppercase;
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: block;
-    
-  }
-  input[type=email], select {
-    font-family: kulim park, sans-serif;
-    text-transform: uppercase;
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: block;
-  }
-  input[type=submit] {
-    width: 30%;
-    background-color: #fff;
-    color:#3a3a3a;
-    padding: 10px 15px;
-    margin: 8px 0;
-  }
-
-  input[type=submit]:hover {
-    background-color: #3a3a3a;
-    color: #fff;
-  }
-
-  #contacth3 {
-    margin-top: 150px;
-    text-align: left;
+#contact div {
+    display: flex;
+}
+#contacth3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
     font-family: kulim park, sans-serif;
     font-size: 80%;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-left:6%;
 }
-
-  #contactdiv {
-    text-align: left;
-    margin-left: 5%;
+    #contact {
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+.formdiv {
+    display: flex;
+    justify-content: space-between;
+}
+    .fname {
+    font-family: kulim park, sans-serif;
+    height: 50px;
+    width:60%; 
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+    .email {
+    font-family: kulim park, sans-serif;
+    height: 50px;
+    width:60%;   
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+    .number {
+    font-family: kulim park, sans-serif;
+    height: 50px;
+    width:60%;   
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+    .message {
+    font-family: kulim park, sans-serif;
+    height: 100px;
+    width:60%;   
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .submit {
+    text-transform: uppercase;
+    background-color: #fff;
+    color:#3a3a3a;
+    height: 50px;
+    width:150px;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
   }
 
-#contact{
-    margin-top:30px;
-    display: inline-block;
-    text-align: center;
-}
+  .submit:hover {
+    background-color: #3a3a3a;
+    color: #fff;
+  }
+
+  
+
 
 /*emailsuccess.html - hidden page */
 
@@ -671,5 +696,7 @@ margin-top: 200px;
         padding: 10px;
         color: #3a3a3a;
     }
-
+    #contact {
+        margin-top: 200px;
+    }
 }
