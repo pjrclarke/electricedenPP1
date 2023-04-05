@@ -17,7 +17,7 @@
 <header>
     <div>
     <a href="index.html">
-            <h1 id="logo" ></h1>
+            <p id="logo" ></p>
     </a>
         <nav>
     <ul id="menu">
@@ -46,24 +46,27 @@
         <div id="contact">
 
             <form action="https://api.sheetmonkey.io/form/dqUic3FT12Qa1M7VUrc5GP" method="post">
+
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
             <div class="formdiv">
                 <label for="fname" class="fname">Full Name</label>
-                <input type="text" name="fname" class="fnames" required>
+                <input type="text" name="fname" id="fname" class="fnames" required>
                 <br>
             </div>
             <div class="formdiv">
                     <label for="email" class="email">Email Address</label>
-                    <input type="email" name="email" class="emails" required >
+                    <input type="email" name="email" id="email" class="emails" required >
                     <br>
             </div>
             <div class="formdiv">
                     <label for="tel" class="number">Contact Number</label>
-                    <input type="tel" name="number" class="numbers">
+                    <input type="tel" name="number" id="tel" class="numbers">
                     <br>
             </div>      
             <div class="formdiv">
                     <label for="message" class="message">Message</label>
-                    <textarea name="message" class="messages" wrap=soft required></textarea>
+                    <textarea name="message" class="messages" id="message" wrap=soft required></textarea>
                     <br>
             </div>
             <input type="submit" class="submit">
