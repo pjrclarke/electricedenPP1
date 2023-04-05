@@ -84,7 +84,6 @@ footer {
             background-color:rgba(255, 241, 221, 0.7);
             height:20px;
             width: 100%;
-            bottom:0;
             position: absolute;
             min-width: 100%;
         }
@@ -381,8 +380,9 @@ article {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top:200px;
+    margin-top:150px;
     text-transform: uppercase;
+    margin-bottom: 100px;
 }
 
 #contacth3 {
@@ -460,6 +460,7 @@ article {
     margin: 200px 0 200px 0;
     text-align: center;
     font-family: kulim park, sans-serif;
+    
 }
 #success a {
     text-decoration: none;
@@ -467,6 +468,14 @@ article {
     color: #3a3a3a;
     top:30px;
     position: relative;
+    border: 2px solid #3a3a3a;
+    padding: 10px 30px 10px 30px;
+    background-color: #fff;
+}
+#success a:hover {
+    background-color: #3a3a3a;
+    border: 2px solid #fff;
+    color: #fff;
 }
 
 /*media queries */
@@ -515,14 +524,14 @@ article {
         column-count: 1;
        }
     
-#about-section {
+    #about-section {
         width: 275px;
         height: 275px;
-}
-#album {
+    }
+    #album {
     width: 275px;
     height: 275px;
-}
+    }   
 
 #fullalbum {
 align-content: center;
@@ -673,6 +682,12 @@ margin-top: 200px;
     border:2px solid #3a3a3a;
     padding: 10px;
     color: #3a3a3a;
+}
+.success h2, h3 {
+    font-size:small;
+}
+.social-networks > li {
+    word-spacing: 40px;
 }
 }
 @media screen and (max-width: 310px) {
