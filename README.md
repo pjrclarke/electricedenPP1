@@ -17,13 +17,13 @@ __Navigation Bar__
 
 ![navigation bar](Readme_Img/electric_eden_readme_nav.jpg)
 
-## Landing Page
+## Home Page
 
-- The Landing page offers the user a simple but striking visual of contrast and depth. 
+- The Home Page offers the user a simple but striking visual of contrast and depth. 
 - The background is a blown-up view of the album artwork.
 - The foreground shows the band name, links to the relevant music download sites and the full album cover nestled centrally in a white background. 
 
-![landing page](Readme_Img/electric_eden_readme_landing.jpg)
+![home page](Readme_Img/electric_eden_readme_landing.jpg)
 
 __Footer__
 - The footer is fixed to the bottom of the page. 
