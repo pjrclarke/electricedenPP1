@@ -7,17 +7,17 @@ Electric Edens site is expressly dedicated to the fan base to help them find way
 ## Features
 
 
--  __Navigation Bar__
+__Navigation Bar__
  
  
-- The navigation bar is fixed to the top of the page regardless if you scroll or not, giving the user quick, easy access to select the page they want. 
+- The navigation bar is fixed to the top each of the pages regardless if you scroll or not, giving the user quick, easy access to select the page they want. 
 - On the left we have the navigational menu. When hovering over a particular page name, the text is shadowed to help the user see which page they are about to select. 
 - On the right, we have the band logo that when selected will take you back to the home page. 
 - The colours are partially matched to the imagery to give that consistent feel across the site. 
 
 ![navigation bar](Readme_Img/electric_eden_readme_nav.jpg)
 
-__Landing Page__
+## Landing Page
 
 - The Landing page offers the user a simple but striking visual of contrast and depth. 
 - The background is a blown-up view of the album artwork.
@@ -33,4 +33,15 @@ __Footer__
 
 
 ![footer](Readme_Img/electric_eden_readme_footer.jpg)
+
+## Media Page
+
+__Video__
+
+- You're first greeted with a large, page size 30 second loop of Electric Edens music video, a taster, to give the user motivation to select the link to watch the full video. 
+- The link is nested in a slightly opaque white box with dark writing to contrast and make it easy to read. 
+- The link takes you to the full youtube video.
+
+![Video Screenshot](Readme_Img/electric_eden_readme_video.jpg)
+
 
