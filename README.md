@@ -1,3 +1,3 @@
 # Electric Eden
 Electric Edens site is expressly dedicated to the fan base to help them find ways to download their latest music, find out the live dates and get in contact with any requests, queries and bookings. It'll target the people who already know who the band are and give them opportunity to find out more relevant information. 
-![responsive mockup]
+![responsive mockup] (https://github.com/pjrclarke/electricedenPP1/blob/main/assets/images/electric_eden_readme1.jpg)
