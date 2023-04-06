@@ -15,7 +15,6 @@ Electric Edens site is expressly dedicated to the fan base to help them find way
 - On the right, we have the band logo that when selected will take you back to the home page. 
 - The colours are partially matched to the imagery to give that consistent feel across the site. 
 
-![navigation bar](https://github.com/pjrclarke/electricedenPP1/blob/main/assets/images/electric_eden_readme_nav.jpg)
+![navigation bar](/workspaces/electricedenPP1/Readme_Img/electric_eden_readme_nav.jpg)
 
 
-hello hello
