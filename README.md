@@ -2,7 +2,7 @@
 Electric Edens site is expressly dedicated to the fan base to help them find ways to download their latest music, find out the live dates and get in contact with any requests, queries and bookings. It'll target the people who already know who the band are and give them opportunity to find out more relevant information. 
 
 
-![responsive mockup](https://github.com/pjrclarke/electricedenPP1/blob/main/assets/images/electric_eden_readme1.jpg)
+![responsive mockup](Readme_Img/electric_eden_readme1.jpg)
 
 ## Features
 
@@ -17,4 +17,20 @@ Electric Edens site is expressly dedicated to the fan base to help them find way
 
 ![navigation bar](Readme_Img/electric_eden_readme_nav.jpg)
 
+__Landing Page__
+
+- The Landing page offers the user a simple but striking visual of contrast and depth. 
+- The background is a blown-up view of the album artwork.
+- The foreground shows the band name, links to the relevant music download sites and the full album cover nestled centrally in a white background. 
+
+![landing page](Readme_Img/electric_eden_readme_landing.jpg)
+
+__Footer__
+- The footer is fixed to the bottom of the page. 
+- The user is greeted with friendly and recognisable logos to help direct them to the relevant social networks.
+- Copyright of the page, images, videos are all help by Electric Eden. 
+- The icons are brought more centrally to make it consistent with the feel of a central design.
+
+
+![footer](Readme_Img/electric_eden_readme_footer.jpg)
 
