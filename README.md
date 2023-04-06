@@ -94,7 +94,7 @@ __Lighthouse__
 
 - During lighthouse testing the results are as follows; 
 
-![Lighthouse results](Read_Img/electric_eden_readme_lighthouse.jpg)
+![Lighthouse results](Readme_Img/electric_eden_readme_lighthouse.jpg)
 
 - Performance marked to 99. This is due to the img types. I know now that using webd would be a more efficient img source to use and can do this moving forward. 
 - 100 all other aspects.  
