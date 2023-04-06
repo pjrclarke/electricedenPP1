@@ -44,4 +44,12 @@ __Video__
 
 ![Video Screenshot](Readme_Img/electric_eden_readme_video.jpg)
 
+__Gallery__
+
+- When you scroll down, you'll find a small gallery. 
+- All images are bordered with a white box which helps bring it out, giving a more immersive look to the images. 
+- The gallery gives the user an insight to what the band does, the instruments used and the fun they have. 
+
+![Gallery](Readme_Img/electric_eden_readme_gallery.jpg)
+
 
