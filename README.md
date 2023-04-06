@@ -4,8 +4,9 @@ Electric Edens site is expressly dedicated to the fan base to help them find way
 
 ## Features
 
-### Navigation Bar
+ __Navigation Bar__
 The navigation bar is fixed to the top of the page regardless if you scroll or not, giving the user quick, easy access to select the page they want. On the left we have the navigational menu. When hovering over a particular page name, the text is shadowed to help the user see which page they are about to select. On the right, we have the band logo that when selected will take you back to the home page. The colours are partially matched to the imagery to give that consistent feel across the site. 
+
 ![navigation bar] (https://github.com/pjrclarke/electricedenPP1/blob/main/assets/images/electric_eden_readme_nav.jpg)
 
 
