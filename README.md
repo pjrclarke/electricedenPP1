@@ -90,14 +90,29 @@ __Contact Success Page__
 
 ## Testing
 
-__Lighthouse__
+### Lighthouse
 
 - During lighthouse testing the results are as follows; 
 
-![Lighthouse results](Readme_Img/electric_eden_readme_lighthouse.jpg)
+__Lighthouse - Home Page__
+
+![Lighthouse homepage results](Readme_Img/electric_eden_readme_lighthouse.jpg)
 
 - Performance marked to 99. This is due to the img types. I know now that using webd would be a more efficient img source to use and can do this moving forward. 
 - 100 all other aspects.  
+
+__Lighthouse - Media Page__
+
+![Lighthouse Media results](Readme_Img/electric_eden_readme_lighthouse_media.jpg)
+
+- As expected from the homepage results, the performance has been hindered due to image file type. Something I will do in future is make sure the file type is the correct one. 
+- Accessability is 100. 
+- Best practice is for one image aspect ratio - Something I'll amend in future. 
+
+__Lighthouse - Live Dates__
+
+
+
 
 __Media Screen Sizing__
 
