@@ -1,16 +1,21 @@
 # Electric Eden
 Electric Edens site is expressly dedicated to the fan base to help them find ways to download their latest music, find out the live dates and get in contact with any requests, queries and bookings. It'll target the people who already know who the band is and give them an opportunity to find out more relevant information.
 
-
+This is the best place to discover and immerse yourself in <a href = https://pjrclarke.github.io/electricedenPP1/index.html>Electric Eden</a>.
 
 
 ![responsive mockup](Readme_Img/electric_eden_readme1.jpg)
 
+# Contents
 
-## Features
+* [**Features**](<#features>)
+    * [Navigation Bar](<#navigation-bar>)
 
 
-__Navigation Bar__
+# Features
+
+
+## Navigation Bar ##
  
  
 - The navigation bar is fixed to the top of each of the pages regardless if you scroll or not, giving the user quick, easy access to select the page they want.
@@ -22,7 +27,7 @@ __Navigation Bar__
 ![navigation bar](Readme_Img/electric_eden_readme_nav.jpg)
 
 
-__Home Page__
+## Home Page ##
 
 
 - The Home Page offers the user a simple but striking visual of contrast and depth.
@@ -33,7 +38,7 @@ __Home Page__
 ![home page](Readme_Img/electric_eden_readme_landing.jpg)
 
 
-__Footer__
+## Footer ##
 
 
 - The footer is fixed to the bottom of each page.
@@ -47,10 +52,10 @@ __Footer__
 ![footer](Readme_Img/electric_eden_readme_footer.jpg)
 
 
-## Media Page
+## Media Page ##
 
 
-__Video__
+### Video ###
 
 
 - You're first greeted with a large, page size 30 second loop of Electric Edens music video, a taster, to give the user motivation to select the link to watch the full video.
@@ -61,7 +66,7 @@ __Video__
 ![Video Screenshot](Readme_Img/electric_eden_readme_video.jpg)
 
 
-__Gallery__
+### Gallery ###
 
 
 - When you scroll down, you'll find a small gallery.
@@ -72,10 +77,10 @@ __Gallery__
 ![Gallery](Readme_Img/electric_eden_readme_gallery.jpg)
 
 
-## Live Dates
+## Live Dates ##
 
 
-__Dates__
+ ### Dates ###
 
 
 - This simple and user-friendly visual gives the user access to see the dates the band are playing live.
@@ -89,7 +94,7 @@ __Dates__
 ## Contact
 
 
-__Contact Form__
+### Contact Form ###
 
 
 - This contact form gives the user a simple and effective way to contact the band.
@@ -109,7 +114,7 @@ __Contact Form__
 ## Contact Success
 
 
-__Contact Success Page__
+### Contact Success Page ###
 
 
 - This hidden page appears once the user has successfully completed the form and selected the submit button.
@@ -135,7 +140,7 @@ __Contact Success Page__
 - During lighthouse testing the results are as follows;
 
 
-__Lighthouse - Home Page__
+## Lighthouse - Home Page ##
 
 
 ![Lighthouse homepage results](Readme_Img/electric_eden_readme_lighthouse_homepage.jpg)
@@ -145,7 +150,7 @@ __Lighthouse - Home Page__
 - 100% all other aspects.  
 
 
-__Lighthouse - Media Page__
+## Lighthouse - Media Page ##
 
 
 ![Lighthouse Media results](Readme_Img/electric_eden_readme_lighthouse_media.jpg)
@@ -156,7 +161,7 @@ __Lighthouse - Media Page__
 - Best practice is for one image aspect ratio - Something I'll amend in future.
 
 
-__Lighthouse - Live Dates__
+## Lighthouse - Live Dates ##
 
 
 ![Lighthouse Live Date results](Readme_Img/electric_eden_readme_lighthouse_livedate.jpg)
@@ -167,7 +172,7 @@ __Lighthouse - Live Dates__
 - The user will clearly click on that link to find out more information about that particular event.
 
 
-__Lighthouse - Contact__
+## Lighthouse - Contact ##
 
 
 ![Lighthouse Live Date results](Readme_Img/electric_eden_readme_lighthouse_contact.jpg)
@@ -176,29 +181,29 @@ __Lighthouse - Contact__
 - Contact form is good across the board. Aside from the consistent performance issue with the images.
 
 
-__Summary on Lighthouse__
+## Summary on Lighthouse ##
 
 
 Overall, Lighthouse testing showed 100 accessibility across the board.
 
 
-__Media Screen Sizing__
+## Media Screen Sizing ##
 
 
 - The screen sizing adapts with each device by ensuring that the navigation flows well and the user experience is continued throughout the site.
 
 
-## Validator Testing
+# Validator Testing #
 
 
 
 
-__HTML__
+## HTML ##
   - No errors or issues were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
 
  
-__CSS__
+ ## CSS ##
   - No errors or issues were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 
@@ -229,7 +234,7 @@ The live link can be found here - https://pjrclarke.github.io/electricedenPP1/in
 - Logo created by Amy Davidson and handed ownership to Electric Eden.
 
 
-# Content
+## Content ##
 
 
 - [Sheet Monkey](https://sheetmonkey.io/) is the third party URL used to help push the results from the form to a google sheet.
@@ -237,7 +242,7 @@ The live link can be found here - https://pjrclarke.github.io/electricedenPP1/in
 - The fonts were taken from [Google Fonts](https://fonts.google.com/)
 
 
-# Media
+## Media ##
 
 
 - All images are owned by Electric Eden
