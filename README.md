@@ -42,6 +42,8 @@ This is the best place to discover and immerse yourself in <a href = https://pjr
             * [live.html](<#livehtml>)
             * [contact.html](<#contacthtml>)
         * [CSS - Validation](<#css>)
+    * [Known Bugs](<#known-bugs>)
+    * [Testing User Stories](<#testing-user-stories>)
 * [**Deployment**](<#deployment>)
     * [To deploy the project](<#to-deploy-the-project>)
     * [To fork the project](<#to-fork-the-project>)
@@ -324,6 +326,39 @@ Elecrtric Edens website welcomes you with a grand image, showcasing their album 
   - No errors or issues were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ![CSS Validation](Readme_Img/readme_css_validation.png)
+
+## Known Bugs ##
+
+### Resolved ###
+- Issues with positioning main central imaging, headers and video. All resolved with help from the tutors at Code institute with further explanation on display:fixed terms and requirements. 
+- Footer positioning - There was an issue with the footer being overtaken. Resulted in using the display:fixed once again. 
+
+### Unresolved ###
+- There are no known unresolved bugs.
+
+## Testing User Stories ## 
+
+- As a User I want to be able to navigate through the site smoothly.
+    - The navigation menu is available on each page, allowing easy access to each page. 
+    - It highlights to clearly distinguish which page the user is on. 
+
+- As a User I want to be able to contact Electric Eden with ease. 
+    - A full contact page has been created with the ability to enter the relevant informaiton to contact the band. 
+    - This goes direct to a googlesheet so the band can review weekly. 
+
+- As a User I want to know how to download Electric Edens music. 
+    - On the main page you're greeted with the extremely well know music icons (Apple and Spotify).
+    - Once these are clicked, it takes the user direct to the appropriate music pages. 
+     
+
+- As a User I want to be able to see where the band are playing next and find out more information about that gig. 
+    - There is a whole page dedicated for users to see the bands next gig. 
+
+- As a User I want to be able to easily connect to Electric Edens social media platforms. 
+    - The footer, which is fixed to each page, gives clear indication on how to see the bands social platforms. 
+
+- As a User I want to be able to see media on the band and where I can see more. 
+    - The media page gives clear indication on how to check out the bands YouTube channel.
 
 [Back to top](<#content>)
 <hr>
